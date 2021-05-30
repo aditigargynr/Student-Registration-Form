@@ -1,0 +1,229 @@
+<Doctype html!>
+<html>
+<head>
+<link rel="stylesheet" href="styles.css">
+<title>Student Registration Form</title>
+</head>
+<body>
+
+<h1>Student Registration Form</h1>
+
+<div class="picUpload">
+    <label>Upload your photograph here:</label><br><br>
+    <input type="file">
+</div>  
+
+<form>
+<table cellspacing="40" class="initial">
+
+<tr>
+<td><Label>College Roll No.</label><input type="text" placeholder="To be filled by Institute"></td>
+<td><Label>Registration No.</label><input type="text" placeholder="To be filled by Institute"> </td>
+</tr>
+
+</table>
+
+<div class="personalDetails">
+<fieldset>
+
+<legend>Student's Personal Details</legend>
+
+<table cellspacing="45">
+<tr>
+<td><Label>Name</label><input type="text"></td>
+<td><label>Blood Group</label><input type="text"></td>
+<td><label ><abbr title="Date Of Birth">D.O.B</abbr></label><input type="date" placeholder="DD-MM-YY"> </td>
+</tr>
+
+<tr>
+<td><label>Gender</label>
+<input type="radio" name="Gender" >Male
+<input type="radio" name="Gender" >Female</td>
+</select>
+</tr>
+
+<tr>
+<td><Label>Father's Name</label><input type="text"></td>
+<td><label>Father's occupation</label><input type="text"></td>
+</tr>
+
+<tr>
+<td><Label>Mother's Name</label><input type="text"></td>
+<td><label>Mother's occupation</label><input type="text"></td>
+</tr>
+
+<tr>
+<td>
+<label>Category</label>
+<select>
+<option>Select</option>
+<option>General</option> 
+<option>SC</option>
+<option>BC</option>
+<option>OBC</option>
+
+</select>
+</td>
+
+
+<td><Label>Annual Income</label><input type="number"></td>
+</tr>
+
+</table>
+
+<label class="sideMargin">Correspondance Address</label><br>
+<textarea rows="4" cols="50" class="sideMargin"></textarea>
+
+<br>
+
+<table cellspacing="45">
+
+<tr>
+<td><label>City/District</label><input type="text"></td>
+<td>
+<label>State</label>
+<select>
+<option>Select</option>
+<option>Haryana</option>
+<option>Rajasthan</option>
+<option>Punjab</option>
+<option>Himachal Pradesh</option>
+<option>Uttar Pradesh</option>
+<option>Uttarakhand</option>
+</select>
+</td>
+
+<td><label>PinCode</label><input type="number" maxlength="6"></td>
+<td><label>Contact No</label><input type="number"></td>
+</tr>
+
+</table>
+
+<label class="sideMargin">Permanent Address</label><br>
+<textarea rows="4" cols="50" class="sideMargin"></textarea>
+
+<br>
+
+<table cellspacing="45">
+
+<tr>
+<td><label>City/District</label><input type="text"></td>
+<td>
+<label>State</label>
+<select>
+<option>Select</option>
+<option>Haryana</option>
+<option>Rajasthan</option>
+<option>Punjab</option>
+<option>Himachal Pradesh</option>
+<option>Uttar Pradesh</option>
+<option>Uttarakhand</option>
+</select>
+</td>
+
+<td><label>PinCode</label><input type="number" maxlength="6"></td>
+<td><label>Contact No</label><input type="number"></td>
+</tr>
+
+</table>
+
+<br>
+
+<label class="sideMargin">Aadhar Card No</label><input type="number" maxlength="14">
+
+
+</fieldset>
+
+</div>
+
+<BR>
+
+<div class="courseDetails">
+<fieldset>
+
+<legend>Student's Course Details</legend>
+
+<table cellspacing="45">
+
+<tr>
+<td>
+<Label>Course</label>
+<select>
+<option>select</option>
+<option>B.A.</option>
+<option>B.Com.</option>
+<option>B.C.A</option>
+<option>B.Sc.</option>
+<option>M.A.</option>
+<option>M.Com.</option>
+<option>M.C.A</option>
+<option>M.Sc.</option>
+</select>
+</td>
+
+<td>
+<Label>Semester</label>
+<select>
+<option>Select</option>
+<option>1st</option>
+<option>2nd</option>
+<option>3rd</option>
+<option>4th</option>
+<option>5th</option>
+<option>6th</option>
+</select>
+</td>
+</tr>
+
+</table>
+
+</fieldset>
+</div>
+<br>
+
+<div class="qualificationDetails">
+
+<fieldset>
+
+<legend>Student's Qualification Details</legend>
+
+<br>
+
+<table class="qualificationTable" cellpadding="20" cellspacing="2" border="">
+
+
+<tr>
+<th>Class</th>
+<th>Year of passing</th>
+<th>Board</th>
+<th>Percentage</th>
+</tr>
+<tr>
+<td><input type="text"></td>
+<td><input type="text"></td>
+<td><input type="text"></td>
+<td><input type="text"></td>
+</tr>
+<tr>
+<td><input type="text"></td>
+<td><input type="text"></td>
+<td><input type="text"></td>
+<td><input type="text"></td>
+</tr>
+
+</table>
+
+</fieldset>
+</div>
+<br>
+
+<div class="btnDiv">
+<input class="btn" type="submit" value="SUBMIT">
+<input class="btn" type="reset" value="RESET">
+</div>
+
+</form>
+
+</body>
+
+</html>
